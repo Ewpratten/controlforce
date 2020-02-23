@@ -4,6 +4,7 @@
     "output":{
         "type":"flywheel",
         "minmax":[0,4450],
-        "accel_secs":0.8
+        "accel":2670,
+        "period":0.01
     }
 }

@@ -7,7 +7,7 @@ class CFGLoader(object):
     _jo:dict
     
     def __init__(self, fp):
-        self._jo = json.load(fp)
+        self._jo = 
     
     def getSys(self) -> System:
         return systems_mapping[self._jo["type"]](self._jo["setpoint_range"], self._jo["output"])

@@ -1,0 +1,9 @@
+{
+    "type":"PID",
+    "setpoint_range":[3000,4450],
+    "output":{
+        "type":"flywheel",
+        "minmax":[0,4450],
+        "accel_secs":0.8
+    }
+}
